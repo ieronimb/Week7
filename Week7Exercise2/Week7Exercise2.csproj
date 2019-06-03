@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E9F87F0D-8F02-416B-B579-6CEE381C673E}</ProjectGuid>
+    <ProjectGuid>{EACEDD8D-ED3A-4308-9804-1BD69EA6314F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Week7</RootNamespace>
-    <AssemblyName>Week7</AssemblyName>
+    <RootNamespace>Week7Exercise2</RootNamespace>
+    <AssemblyName>Week7Exercise2</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FilePath.cs" />
+    <Compile Include="DownloadImage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
